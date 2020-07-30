@@ -21,61 +21,71 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_value_anim"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Value Animator" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_object_anim_alpha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Object Animator (Alpha)" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_object_anim_rotation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Object Animator (Rotation)" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_object_anim_set"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Object Animator (Set)" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_object_anim_xml"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Object Animator (Xml)" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_simple_value_animator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Simple Value Animator" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_value_animator_argb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Value Animator (Argb)" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_bounce_interpolator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bounce Interpolator" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_simple_key_frame"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Simple Key Frame" />
 
-            <Button
+           <Button
+        android:textAllCaps="false"
                 android:id="@+id/btn_shake_key_frame"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
