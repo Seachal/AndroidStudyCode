@@ -36,4 +36,20 @@
         android:layout_height="wrap_content"
         android:text="@string/day_night_mode" />
 
+   <Button
+       android:textAllCaps="false"
+       android:id="@+id/btn_AnimationTestActivity"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/animation_test" />
+
+   <Button
+       android:textAllCaps="false"
+       android:id="@+id/btn_AuthorActivity"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Just a boy" />
+
+
+
 </LinearLayout>

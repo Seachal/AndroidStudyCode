@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_animator).setOnClickListener(this);
         findViewById(R.id.btn_day_night).setOnClickListener(this);
 
+
+        findViewById(R.id.btn_AnimationTestActivity).setOnClickListener(this);
+        findViewById(R.id.btn_AuthorActivity).setOnClickListener(this);
+
     }
 
     @Override
@@ -35,6 +39,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(animatorIntent);
         } else if (viewId == R.id.btn_day_night) {
             Intent animatorIntent = new Intent(this, DayNightActivity.class);
+            startActivity(animatorIntent);
+        }else if (viewId == R.id.btn_AnimationTestActivity){
+            Intent animatorIntent = new Intent(this, AnimationTestActivity.class);
+            startActivity(animatorIntent);
+        }else if(viewId == R.id.btn_AuthorActivity){
+            Intent animatorIntent = new Intent(this, AuthorActivity.class);
             startActivity(animatorIntent);
         }
     }
